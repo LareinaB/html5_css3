@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        #div1{
+            width: 100px;
+            height: 100px;
+            background: red;
+        }
+        #div1:hover{
+            width: 200px;
+            /*transition-property: width;*/
+            /*transition-duration: 1s;*/
+            /*transition-timing-function: linear;*/
+            transition: width 1s 1s;
+        }
+        body{
+            background: #2192bc;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background: #2192bc url("images/1.jpg") no-repeat center center;
+            border-radius: 50%;
+            margin: 100px auto;
+            box-shadow: 0 0 0 30px transparent;
+            -o-transition: box-shadow 1s;
+            -ms-transition: box-shadow 1s;
+            -moz-transition: box-shadow 1s;
+            -webkit-transition: box-shadow 1s;
+            transition: box-shadow 1s;
+        }
+        .box:hover{
+            box-shadow: 0 0 0 0 rgba(255,255,255,0.5);
+        }
+        /**
+        过渡动画效果
+        1.找到过渡属性 box-shadow
+        2.找到过渡属性起始值和结束值 扩展半径和颜色
+        30px transparent
+        0    white
+        3.在合适的位置增加transition属性
+         */
+    </style>
+</head>
+<body>
+    <!--<div id="div1"></div>-->
+<div class="box"></div>
+</body>
+</html>

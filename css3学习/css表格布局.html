@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css布局</title>
+</head>
+<body>
+    <!--常见的布局方法：-->
+    <!--table表格布局-->
+    <style>
+        .left{
+            background: red;
+        }
+        .right{
+            background: blue;
+        }
+        table{
+            width: 800px;
+            height: 200px;
+            border-collapse: collapse;
+        }
+        .table{
+            margin-top: 20px;
+            display: table;
+            width: 800px;
+            height: 200px;
+        }
+        .table-row{
+            display: table-row;
+        }
+        .table-cell{
+            vertical-align: middle;
+            display: table-cell;
+        }
+    </style>
+    <table>
+        <tr>
+            <td class="left">左</td>
+            <td class="right">右</td>
+        </tr>
+    </table>
+    <div class="table">
+        <div class="table-row">
+            <div class="left table-cell">左</div>
+            <div class="right table-cell">右</div>
+        </div>
+    <!--两种都可以自适应-->
+    </div>
+        <!--float浮动+margin-->
+        <!--inline-block布局-->
+        <!--flexbox布局-->
+</body>
+</html>

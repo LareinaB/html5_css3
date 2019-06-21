@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        #div1{
+            width: 100px;
+            height: 100px;
+            background: -wekbit-radial-gradient(circle, orange, green);
+            background: radial-gradient(circle, orange, green);
+            border-radius: 50%;
+            animation: move 1s;
+        }
+        #div1:hover{
+            animation-play-state: paused;
+        }
+        @-webkit-keyframes move {
+            0%{
+                transform: translate(200px, 200px);
+            }
+            50%{
+                transform: translate(400px, 400px);
+            }
+            100%{
+                transform: translate(400px, 0px);
+            }
+        }
+        @keyframes move {
+            0%{
+                transform: translate(200px, 200px);
+            }
+            50%{
+                transform: translate(400px, 400px);
+            }
+            100%{
+                transform: translate(400px, 0px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="div1"></div>
+</body>
+</html>

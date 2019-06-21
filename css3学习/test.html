@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=0.5,user-scalable=no" charset="utf-8"/>
+    <title>test 适配器</title>
+</head>
+<body></body>
+</html>
+
+<button class="btn" onclick='a()'>
+    按
+</button >
+
+<style>
+    html
+    {
+        font-size: 32px;
+    }
+    .btn
+    {
+        width: 359px;
+        height: 2rem;
+        line-height: .3rem;
+        display: inline-block;
+        background: #06c;
+        font-size: 1rem;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+    }
+	@media screen and (max-width: 375px){
+		.btn {
+			font-size: .5rem
+		}
+	}
+	.className{
+		display: flex;
+	}
+</style>
+<script>
+
+</script>
