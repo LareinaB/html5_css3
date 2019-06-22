@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动布局</title>
+    <style>
+        .container{
+            /*width: 800px;*/
+            height: 200px;
+        }
+        .left{
+            background: red;
+            float: left;
+            height: 100%;
+            width: 200px;
+        }
+        .middle{
+            margin-left: 200px;
+            margin-right: 200px;
+            background: green;
+            height: 100%;
+        }
+        .right{
+            background: blue;
+            float: right;
+            width: 200px;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            左
+        </div>
+        <!--知道为啥要把右边的写上面来了-->
+        <div class="right">
+            右
+        </div>
+        <div class="middle">
+            中
+        </div>
+    </div>
+</body>
+</html>

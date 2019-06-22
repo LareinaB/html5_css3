@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flexbox</title>
+    <style>
+        .container{
+            /*width: 800px; 自适应的时候不能设置宽度*/
+            height: 200px;
+            display: flex;
+            border: 1px solid black;
+        }
+        .flex-left{
+            background: red;
+            margin: 5px;
+            width: 300px;
+        }
+        .flex-center{
+            background: blue;
+            margin: 5px;
+            flex: 1;
+        }
+        .flex-right{
+            background: green;
+            margin: 5px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+<!--弹性盒子 本来就是并列的 只需指定宽度即可 可实现3栏布局-->
+<div class="container">
+    <div class="flex-left">
+        flex左布局
+    </div>
+    <div class="flex-center">
+        flex中布局
+    </div>
+    <div class="flex-right">
+        flex右布局
+    </div>
+
+</div>
+</body>
+</html>

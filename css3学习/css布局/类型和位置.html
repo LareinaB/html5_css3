@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>元素类型和位置</title>
+</head>
+<body>
+    <style>
+        .block{
+            height: 100px;
+            background: red;
+        }
+        .inline{
+            display: inline;
+            background: #1e7e34;
+        }
+        .inline-block{
+            display: inline-block;
+            width: 200px;
+            height: 100px;
+            background: blue;
+        }
+        .position{
+            width: 200px;
+            height: 200px;
+        }
+        .p1{
+            position: static;
+            background: red;
+        }
+        .p2{
+            position: relative;
+            left: 10px;
+            top: -10px;
+            background: blue;
+        }
+        .p3{
+            position: absolute;
+            left: 30px;
+            top: 80px;
+            background: salmon;
+        }.p4{
+            position: fixed;
+            left: 0;
+            bottom: 10px;
+            background: green;
+         }
+
+    </style>
+    <!--display:block inline inline-block默认是static， 除了static都可以设置z-index来改变层级-->
+    <div class="block">独立宽高 默认占据一行</div>
+    <div class="inline">不会占据一行 不可设置宽高</div>
+    <div class="inline-block">
+        对内可有独立宽高 对外可跟其他元素在同一行
+        可通过vertical-align调整对齐方式
+    </div>
+    <!--position:static relative absolute fixed-->
+    <div class="position p1">
+        static
+    </div>
+    <div class="position p2">
+        relative相对元素本身偏移的
+        不会改变它占据的空间
+    </div>
+    <div class="position p3">
+        absolute从文档流中脱离 独立的存在
+        相对于最近的relative或absolute定位
+        这个父级没有，就相对于body
+        <div class="p3-3" style="position: absolute;width: 100px;height: 100px; background: #6f42c1">
+            这个设置top left就是相对于父级
+        </div>
+    </div>
+    <div class="position p4">
+        fixed 脱离文档流 相对于可视区域是固定的 页面滚动缩放时
+        它依然距离左边0 下边10px
+    </div>
+    <div class="position p5">
+        p5
+    </div>
+    absolute和fixed的区别(参照物不同)
+    -> 前者相对于最近的absolute或者relative
+    -> 后者相对于屏幕(移动端是viewport)
+
+</body>
+</html>

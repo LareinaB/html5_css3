@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>inline-block</title>
+    <style>
+        .container{
+            width: 800px;
+            height: 200px;
+            font-size: 0;
+        }
+        .left{
+            font-size: 14px;
+            background: red;
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+        }
+        .right{
+            font-size: 14px;
+            background: blue;
+            display: inline-block;
+            width: 600px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <!--像文本一样排列block元素-->
+    <!--没有清除浮动等问题-->
+    <!--需要处理间隙-->
+    <div class="container">
+        <div class="left">
+            左
+        </div>
+        <div class="right">
+            右
+        </div>
+    </div>
+    display: inline-block的间隙
+    -> 原因 字符间距
+    -> 解决 消灭字符或者消灭间距
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container{
+            position: relative;
+            background-color: #C63D01;
+            width: 36px;
+            height: 36px;
+            margin: 300px auto;
+            border-radius: 50%;
+            /*x方向偏移 y方向偏移 模糊区域 扩展区域 shadow颜色*/
+            /*box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 2);*/
+            /*box-shadow: inset 5px 5px 10px 0 rgba(0, 0, 0, 2);*/
+            /*box-shadow: 0 0 0 5px green;*/
+            box-shadow: 0 0 0 1px #000,
+            -20px -26px 0 -10px #333333,
+            -34px -40px 0 15px #fff,
+            -34px -40px 0 16px,
+            20px -26px 0 -10px #333333,
+            34px -40px 0 15px #fff,
+            34px -40px 0 16px,
+            0 55px 0 75px #fff,
+            0 55px 0 76px #000,
+            0 22px 0 120px #08BDEB,
+            0 22px 0 120px #000;
+        }
+        /*叮当猫的鼻子*/
+        .container::before{
+            content: '';
+            position: absolute;
+            bottom: -81px;
+            left: 17px;
+            height: 80px;
+            width: 2px;
+            background: #000;
+        }
+        /*叮当猫的嘴巴*/
+        .container::after{
+            content: '';
+            position: absolute;
+            bottom: -83px;
+            left: -44px;
+            width: 125px;
+            height: 70px;
+            border-bottom-right-radius: 28px;
+            border-bottom: solid 2px black;
+            border-bottom-left-radius: 28px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+</body>
+</html>

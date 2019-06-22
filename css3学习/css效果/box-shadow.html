@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>box-shadow</title>
+        <style>
+            .container{
+                background: red;
+                width: 10px;
+                height: 10px;
+                margin: 10px;
+                border-radius: 5px;
+                /*x方向偏移 y方向偏移 模糊区域 扩展区域 shadow颜色*/
+                /*box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 2);*/
+                /*box-shadow: inset 5px 5px 10px 0 rgba(0, 0, 0, 2);*/
+                /*box-shadow: 0 0 0 5px green;*/
+                box-shadow: 200px 200px 0 5px green,
+                            230px 200px 0 5px green,
+                            215px 215px 0 -3px red;
+            }
+        </style>
+</head>
+<body>
+    <div class="container">
+    </div>
+    作用: 营造层次感(立体感) 充当没有宽度的边框(不会占空间不会影响排版这些) 特殊效果
+</body>
+</html>
