@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>关键帧动画</title>
+    <style>
+        .container {
+            background: red;
+            width: 100px;
+            height: 100px;
+            animation: run 1s linear;
+            animation-direction: reverse;
+            /*停的时候保持状态*/
+            animation-play-state: paused;
+            /*决定最后停在哪里*/
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+
+        }
+        @keyframes run {
+            /*from to 只有两个状态的时候适合 很灵活*/
+            0%{
+               width: 100px;
+            }
+            /*10%{*/
+                /*width: 50px;*/
+            /*}*/
+            /*90%{*/
+                /*width: 1000px;*/
+            /*}*/
+            100%{
+               width: 800px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    可以指定一个动画的关键路径 中间的状态由css计算完成
+    相当于多个补间动画(要求元素有变化)
+    与补间动画不同，关键帧动画与元素状态的变化无关
+    定义更加灵活
+    <div class="container">
+    </div>
+</body>
+</html>

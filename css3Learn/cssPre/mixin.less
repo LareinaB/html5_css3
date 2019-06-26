@@ -1,0 +1,28 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.block(@fontSize){
+  font-size: @fontSize;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+@bgColor: red;
+@fontSize: 12px;
+
+.wrapper{
+  //lighten颜色变浅
+  background: lighten(@bgColor, 40%);
+
+  .nav{
+    .block(@fontSize);
+  }
+  .content{
+    .block(@fontSize + 2px);
+    &:hover{   // 相当于 .content: hover
+      background: @bgColor;
+    }
+  }
+}

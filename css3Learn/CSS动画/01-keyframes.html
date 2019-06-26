@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>逐帧动画</title>
+    <style>
+        .container {
+            background: url("8.png") no-repeat;
+            width: 120px;
+            height: 120px;
+            animation: run 1s infinite;
+            animation-timing-function: steps(1);
+            /*去掉补间*/
+
+        }
+        @keyframes run {
+            /*from to 只有两个状态的时候适合 很灵活*/
+            0%{
+                background-position: 0 0;
+            }
+            12.5%{
+                background-position: -220px 0;
+            }
+            25%{
+                background-position: -330px 0;
+            }
+            37.5%{
+                background-position: -470px 0;
+            }
+            50%{
+                background-position: 0 -100px;
+            }
+            62.5%{
+                background-position: -120px -100px;
+            }
+            75%{
+                background-position: -220px -100px;
+            }
+            87.5%{
+                background-position: -340px -100px;
+            }
+            100%{
+                background-position: 0 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    跟关键帧动画一样，但是没有中间的补间过程，
+    每一帧都是一个关键帧
+    就是关键帧动画的一种特殊情况
+    适用于无法补间计算的动画
+    资源较大
+    使用steps()
+    <div class="container">
+    </div>
+</body>
+</html>

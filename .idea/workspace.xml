@@ -2,33 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c61866fd-4b38-4ae9-968a-8d016d739169" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css3学习/css布局/flexbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css3学习/css布局/float及清除.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css3学习/css布局/float布局.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css3学习/css布局/inline-block.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css3学习/css布局/响应式2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css3学习/css布局/响应式设计和布局.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css3学习/css布局/类型和位置.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css3学习/css效果/box-shadow机器猫.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3学习/animation.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3学习/css效果/animation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3学习/animationDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3学习/css效果/animationDemo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3学习/cssExplore.css" beforeDir="false" afterPath="$PROJECT_DIR$/css3学习/css效果/cssExplore.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3学习/cssExplore.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3学习/css效果/cssExplore.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3学习/css常见面试题.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3学习/css布局/css常见面试题.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3学习/css表格布局.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3学习/css布局/css表格布局.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3学习/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3学习/css布局/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3学习/linear-gradient.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3学习/css布局/linear-gradient.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3学习/pro-success.png" beforeDir="false" afterPath="$PROJECT_DIR$/css3学习/css布局/pro-success.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3学习/pro-success2.png" beforeDir="false" afterPath="$PROJECT_DIR$/css3学习/css布局/pro-success2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3学习/refer.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3学习/css布局/refer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3学习/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3学习/css布局/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3学习/testBFC.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3学习/css布局/testBFC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3学习/transform3D.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3学习/css布局/transform3D.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3学习/transform3DDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3学习/css布局/transform3DDemo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3学习/transform3DDemo2.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3学习/css布局/transform3DDemo2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3学习/盒子模型.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3学习/css效果/box-shadow.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css3学习/盒子模型.png" beforeDir="false" afterPath="$PROJECT_DIR$/css3学习/css布局/盒子模型.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3Learn/CSS动画/01-keyframes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3Learn/CSS动画/01-transition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3Learn/CSS动画/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3Learn/CSS动画/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3Learn/CSS动画/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3Learn/CSS动画/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3Learn/CSS动画/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3Learn/CSS动画/keyframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3Learn/CSS动画/面试.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3Learn/cssPre/1-nest-less.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3Learn/cssPre/1-nest-scss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3Learn/cssPre/1-nest.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3Learn/cssPre/1-nest.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3Learn/cssPre/css预处理器.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3Learn/cssPre/extend.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3Learn/cssPre/mixin.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3Learn/cssPre/mixin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3Learn/cssPre/variable" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3Learn/cssPre/variable.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css布局/css常见面试题.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css布局/css常见面试题.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css布局/css表格布局.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css布局/css表格布局.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css布局/flexbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css布局/flexbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css布局/float及清除.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css布局/float及清除.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css布局/float布局.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css布局/float布局.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css布局/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css布局/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css布局/inline-block.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css布局/inline-block.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css布局/linear-gradient.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css布局/linear-gradient.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css布局/pro-success.png" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css布局/pro-success.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css布局/pro-success2.png" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css布局/pro-success2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css布局/refer.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css布局/refer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css布局/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css布局/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css布局/testBFC.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css布局/testBFC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css布局/transform3D.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css布局/transform3D.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css布局/transform3DDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css布局/transform3DDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css布局/transform3DDemo2.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css布局/transform3DDemo2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css布局/响应式2.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css布局/响应式2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css布局/响应式设计和布局.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css布局/响应式设计和布局.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css布局/盒子模型.png" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css布局/盒子模型.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css布局/类型和位置.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css布局/类型和位置.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css效果/animation.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css效果/animation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css效果/animationDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css效果/animationDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css效果/box-shadow.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css效果/box-shadow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css效果/box-shadow机器猫.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css效果/box-shadow机器猫.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css效果/cssExplore.css" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css效果/cssExplore.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css3学习/css效果/cssExplore.html" beforeDir="false" afterPath="$PROJECT_DIR$/css3Learn/css效果/cssExplore.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,20 +60,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css3学习/css效果/box-shadow机器猫.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css3Learn/cssPre/extend.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+            <state relative-caret-position="205">
+              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css3学习/css效果/box-shadow.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css3Learn/cssPre/mixin.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="385">
+              <caret line="28" lean-forward="true" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -87,14 +106,25 @@
         <option value="$PROJECT_DIR$/css3学习/css效果/box-shaow.html" />
         <option value="$PROJECT_DIR$/css3学习/css效果/box-shadow机器猫.html" />
         <option value="$PROJECT_DIR$/css3学习/css效果/box-shadow.html" />
+        <option value="$PROJECT_DIR$/css3学习/CSS动画/01-transition.html" />
+        <option value="$PROJECT_DIR$/css3学习/CSS动画/keyframe.html" />
+        <option value="$PROJECT_DIR$/css3学习/CSS动画/01-keyframes.html" />
+        <option value="$PROJECT_DIR$/css3学习/CSS动画/面试.html" />
+        <option value="$PROJECT_DIR$/css3学习/css预处理器/css预处理器.md" />
+        <option value="$PROJECT_DIR$/css3学习/css预处理器/1-next.less" />
+        <option value="$PROJECT_DIR$/css3Learn/cssPre/1-nest.scss" />
+        <option value="$PROJECT_DIR$/css3Learn/cssPre/variable.less" />
+        <option value="$PROJECT_DIR$/css3Learn/cssPre/mixin.less" />
+        <option value="$PROJECT_DIR$/css3Learn/cssPre/mixin.scss" />
+        <option value="$PROJECT_DIR$/css3Learn/cssPre/extend.less" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1618" />
-    <option name="y" value="-25" />
-    <option name="width" value="1118" />
-    <option name="height" value="915" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="1537" />
+    <option name="y" value="5" />
+    <option name="width" value="1250" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -113,13 +143,13 @@
             <path>
               <item name="html5&amp;css3" type="b2602c69:ProjectViewProjectNode" />
               <item name="html5&amp;css3" type="462c0819:PsiDirectoryNode" />
-              <item name="css3学习" type="462c0819:PsiDirectoryNode" />
+              <item name="css3Learn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="html5&amp;css3" type="b2602c69:ProjectViewProjectNode" />
               <item name="html5&amp;css3" type="462c0819:PsiDirectoryNode" />
-              <item name="css3学习" type="462c0819:PsiDirectoryNode" />
-              <item name="css效果" type="462c0819:PsiDirectoryNode" />
+              <item name="css3Learn" type="462c0819:PsiDirectoryNode" />
+              <item name="cssPre" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -130,11 +160,13 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\WebstormProjects\html5&amp;css3\css3Learn\cssPre" />
       <recent name="G:\WebstormProjects\html5&amp;css3\css3学习\css效果" />
       <recent name="G:\WebstormProjects\html5&amp;css3\css3学习\css布局" />
     </key>
@@ -162,17 +194,20 @@
       <option name="presentableId" value="Default" />
       <updated>1561085350372</updated>
       <workItem from="1561085353244" duration="19084000" />
-      <workItem from="1561119683698" duration="12212000" />
+      <workItem from="1561119683698" duration="12311000" />
+      <workItem from="1561447871335" duration="10443000" />
+      <workItem from="1561549697527" duration="4664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31296000" />
+    <option name="totallyTimeSpent" value="46502000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
+    <frame x="1537" y="5" width="1250" height="900" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496474" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24174918" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -184,7 +219,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.31723237" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -196,7 +231,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css3学习/盒子模型.html" />
-    <entry file="file://$PROJECT_DIR$/css3学习/css布局/css表格布局.html">
+    <entry file="file://$PROJECT_DIR$/css3Learn/css布局/css表格布局.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
           <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
@@ -217,28 +252,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css3学习/css布局/flexbox.html">
+    <entry file="file://$PROJECT_DIR$/css3Learn/css布局/flexbox.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css3学习/css布局/响应式设计和布局.html">
+    <entry file="file://$PROJECT_DIR$/css3Learn/css布局/响应式设计和布局.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="5" column="57" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css3学习/css布局/响应式2.html">
+    <entry file="file://$PROJECT_DIR$/css3Learn/css布局/响应式2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css3学习/css布局/类型和位置.html">
+    <entry file="file://$PROJECT_DIR$/css3Learn/css布局/类型和位置.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
@@ -248,14 +283,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css3学习/css布局/inline-block.html">
+    <entry file="file://$PROJECT_DIR$/css3Learn/css布局/inline-block.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css3学习/css布局/float及清除.html">
+    <entry file="file://$PROJECT_DIR$/css3Learn/css布局/float及清除.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="568">
           <caret line="72" column="37" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
@@ -265,31 +300,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css3学习/css效果/cssExplore.html">
+    <entry file="file://$PROJECT_DIR$/css3Learn/css效果/cssExplore.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css3学习/css布局/float布局.html">
+    <entry file="file://$PROJECT_DIR$/css3Learn/css布局/float布局.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="9" column="9" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css3学习/css效果/box-shadow机器猫.html">
+    <entry file="file://$PROJECT_DIR$/css3Learn/css效果/box-shadow机器猫.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css3学习/css效果/box-shadow.html">
+    <entry file="file://$PROJECT_DIR$/css3Learn/css效果/animation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="-90" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3Learn/css效果/box-shadow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3Learn/CSS动画/01-transition.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3Learn/CSS动画/01-keyframes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3Learn/CSS动画/keyframe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="34" column="12" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="34" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3Learn/CSS动画/面试.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3Learn/cssPre/css预处理器.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="17" selection-start-line="17" selection-end-line="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3Learn/cssPre/1-nest.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3Learn/cssPre/1-nest-less.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3Learn/cssPre/variable">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3Learn/cssPre/1-nest-scss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3Learn/cssPre/1-nest.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="19" selection-start-line="1" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3Learn/cssPre/1-nest.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3Learn/cssPre/variable.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="21" lean-forward="true" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3Learn/cssPre/mixin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3Learn/cssPre/mixin.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="28" lean-forward="true" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3Learn/cssPre/extend.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
         </state>
       </provider>
     </entry>
